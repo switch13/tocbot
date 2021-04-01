@@ -48,6 +48,8 @@ declare namespace tocbot {
     // Class to add to list items.
     listItemClass?: string;
 
+    // Class to add to active list items.
+    activeListItemClass: 'is-active-li';
     // How many heading levels should not be collapsed.
     // For example; number 6 will show everything since
     // there are only 6 heading levels and number 0 will collapse them all.
